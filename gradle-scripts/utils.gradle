@@ -1,0 +1,19 @@
+ext {
+    property = this.&property
+}
+
+def property(fileName, key) {
+    Properties      props = new Properties()
+    File            file  = new File("${rootDir.absolutePath}/properties/${fileName}.properties")
+    FileInputStream fis   = null
+    try {
+        fis = new FileInputStream(file)
+        props.load(fis)
+
+        return props.getProperty(key)
+    } finally {
+        if (fis != null) {
+            fis.close()
+        }
+    }
+}

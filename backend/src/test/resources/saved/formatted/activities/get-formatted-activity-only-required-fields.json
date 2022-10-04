@@ -1,0 +1,58 @@
+{
+  "id": "d3addaa6-75c8-11ea-a3d9-2ba13b3e8873",
+  "name": "Activity Required Fields Only",
+  "description": null,
+  "faculty": "Прикладной Анализ Данных",
+  "year": "2020",
+  "course": "4",
+  "status": "not_started",
+  "schemaContentId": "d3ac9060-75c8-11ea-a3d9-334727197fdf",
+  "stages": [
+    {
+      "id": "d3af3cde-75c8-11ea-a3d9-2ba14e8548cf",
+      "name": "Stage 1",
+      "description": "",
+      "stageNumber": "1",
+      "grade": "10",
+      "startDate": "2014-06-01 07:02:13.552",
+      "endDate": "2014-06-01 07:02:13.552",
+      "tasks": [
+        {
+          "id": "d3afcc08-75c8-11ea-a3d9-cb68782b564c",
+          "name": "Task 1-1",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        },
+        {
+          "id": "d3b10fdc-75c8-11ea-a3d9-5fe1156f6b4a",
+          "name": "Task 1-2",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        }
+      ]
+    },
+    {
+      "id": "d3b28006-75c8-11ea-a3d9-3bce6ffb796f",
+      "name": "Stage 2",
+      "description": "",
+      "stageNumber": "1",
+      "grade": "10",
+      "startDate": "2014-06-01 07:02:13.552",
+      "endDate": "2014-06-01 07:02:13.552",
+      "tasks": [
+        {
+          "id": "d3b323ee-75c8-11ea-a3d9-3b39b89cf83b",
+          "name": "Task 2-1",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        },
+        {
+          "id": "d3b3b836-75c8-11ea-a3d9-1702a775d4c0",
+          "name": "Task 2",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        }
+      ]
+    }
+  ]
+}

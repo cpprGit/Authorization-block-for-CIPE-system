@@ -1,0 +1,22 @@
+.notification
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+
+  &:hover
+    background-color: rgba(19, 124, 189, 0.2);
+
+  &._is-read
+    opacity: 0.5
+
+  &__text
+    flex: 1 1 auto;
+    padding: 0 8px;
+    cursor: default;
+
+  &__icon
+    flex: 0 0 auto;
+    cursor: pointer;
+    padding: 8px;
+    opacity: 0.5;

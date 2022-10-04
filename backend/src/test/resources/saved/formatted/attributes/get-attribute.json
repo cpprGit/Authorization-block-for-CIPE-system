@@ -1,0 +1,25 @@
+{
+  "id": "6f1ab9e6-767d-11ea-b714-f30d95ea475d",
+  "usage": "short_text",
+  "name": "Test attribute",
+  "description": "Some description",
+  "title": "Test attribute title",
+  "placeholder": "Some placeholder",
+  "step": 10,
+  "min": 0,
+  "max": 10,
+  "hint": "Some hint",
+  "mandatory": true,
+  "valueDefault": "Some default value",
+  "searchName": null,
+  "variants": [
+    "var1",
+    "var2"
+  ],
+  "validators": [
+    {
+      "regexp": "regexp",
+      "message": "message"
+    }
+  ]
+}

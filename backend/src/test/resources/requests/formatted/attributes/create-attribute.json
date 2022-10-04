@@ -1,0 +1,23 @@
+{
+  "usage": "short_text",
+  "name": "Test attribute",
+  "title": "Test attribute title",
+  "description": "Some description",
+  "placeholder": "Some placeholder",
+  "step": 10,
+  "min": 0,
+  "max": 10,
+  "hint": "Some hint",
+  "mandatory": true,
+  "valueDefault": "Some default value",
+  "variants": [
+    "var1",
+    "var2"
+  ],
+  "validators": [
+    {
+      "regexp": "regexp",
+      "message": "message"
+    }
+  ]
+}

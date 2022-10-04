@@ -1,0 +1,58 @@
+{
+  "id": "ab1e8128-75c6-11ea-915b-e77152dd7816",
+  "name": "Activity",
+  "description": "Desc",
+  "faculty": "Прикладной Анализ Данных",
+  "year": "2020",
+  "course": "4",
+  "status": "not_started",
+  "schemaContentId": "ab1cd3aa-75c6-11ea-915b-e347e03a8e5e",
+  "stages": [
+    {
+      "id": "ab2046f2-75c6-11ea-915b-6738f3eb7199",
+      "name": "Stage 1",
+      "description": "",
+      "stageNumber": "1",
+      "grade": "10",
+      "startDate": "2014-06-01 07:02:13.552",
+      "endDate": "2014-06-01 07:02:13.552",
+      "tasks": [
+        {
+          "id": "ab2176f8-75c6-11ea-915b-07357d190584",
+          "name": "Task 1-1",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        },
+        {
+          "id": "ab22c08a-75c6-11ea-915b-5ff16c8548bb",
+          "name": "Task 1-2",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        }
+      ]
+    },
+    {
+      "id": "ab246d2c-75c6-11ea-915b-eb8c37721ddd",
+      "name": "Stage 2",
+      "description": "",
+      "stageNumber": "1",
+      "grade": "10",
+      "startDate": "2014-06-01 07:02:13.552",
+      "endDate": "2014-06-01 07:02:13.552",
+      "tasks": [
+        {
+          "id": "ab25d9dc-75c6-11ea-915b-f349938440f2",
+          "name": "Task 2-1",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        },
+        {
+          "id": "ab2686de-75c6-11ea-915b-eb45fa0472ff",
+          "name": "Task 2",
+          "description": "Choose smth",
+          "isUploadable": "false"
+        }
+      ]
+    }
+  ]
+}

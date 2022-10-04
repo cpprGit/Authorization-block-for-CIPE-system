@@ -1,0 +1,277 @@
+{
+  "id": "1e6dea22-7f0b-11ea-bea2-c7b0ca22470d",
+  "title": "Test Project Request Schema",
+  "description": "Description",
+  "schemaType": "project_request",
+  "createdBy": "123e4567-e89b-12d3-a000-000000000000",
+  "buttonName": "Button Name",
+  "attributes": [
+    {
+      "id": "aaabf79c-5bb4-11ea-87ee-03b7f37be111",
+      "usage": "short_text",
+      "name": "Favourite cat breed",
+      "description": "description",
+      "title": "Любимая порода котика",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    },
+    {
+      "id": "b00bf79c-5bb4-11ea-87ee-03b7f37be222",
+      "usage": "short_text",
+      "name": "Eye color",
+      "description": "description",
+      "title": "Цвет глаз",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "projectNameRus",
+      "title": "Название проекта на русском языке",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00001",
+        "usage": "short_text",
+        "name": "Project Name Rus",
+        "description": "",
+        "title": "Название проекта на русском языке",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Введите полное название проекта на русском языке",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "projectNameRus",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "projectNameEng",
+      "title": "Название проекта на английском языке",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00002",
+        "usage": "short_text",
+        "name": "Project Name Eng",
+        "description": "",
+        "title": "Название проекта на английском языке",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Введите полное название проекта на английском языке",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "projectNameEng",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "projectIndividuality",
+      "title": "Тип проекта",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00003",
+        "usage": "radio",
+        "name": "Individual or Group type",
+        "description": "",
+        "title": "Тип проекта",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "projectIndividuality",
+        "variants": [
+          "Групповой",
+          "Индивидуальный"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "projectType",
+      "title": "Исследовательская или Программная работа",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00004",
+        "usage": "radio",
+        "name": "Project Type",
+        "description": "",
+        "title": "Исследовательская или Программная работа",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "projectType",
+        "variants": [
+          "Исследовательский",
+          "Программный"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "mentor",
+      "title": "Руководитель проекта",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00005",
+        "usage": "mentor",
+        "name": "Project Leader",
+        "description": "Введите ФИО руководителя проекта из НИУ ВШЭ",
+        "title": "Руководитель проекта",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Введите ФИО руководителя проекта",
+        "mandatory": false,
+        "valueDefault": null,
+        "searchName": "mentor",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "consultant",
+      "title": "Консультант проекта",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00006",
+        "usage": "mentor",
+        "name": "Project Consultant",
+        "description": "Введите ФИО консультанта проекта",
+        "title": "Консультант проекта",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Введите ФИО консультанта проекта",
+        "mandatory": false,
+        "valueDefault": null,
+        "searchName": "consultant",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "piCourses",
+      "title": "Программная Инженерия",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00008",
+        "usage": "checkbox",
+        "name": "PI Courses",
+        "description": "",
+        "title": "Программная Инженерия",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": false,
+        "valueDefault": null,
+        "searchName": "piCourses",
+        "variants": [
+          "1 курс",
+          "2 курс",
+          "3 курс",
+          "4 курс"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "pmiCourses",
+      "title": "Прикладная Математика и Информатика",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00009",
+        "usage": "checkbox",
+        "name": "PMI Courses",
+        "description": "",
+        "title": "Прикладная Математика и Информатика",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": false,
+        "valueDefault": null,
+        "searchName": "pmiCourses",
+        "variants": [
+          "1 курс",
+          "2 курс",
+          "3 курс",
+          "4 курс"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "padCourses",
+      "title": "Прикладной Анализ Данных",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00010",
+        "usage": "checkbox",
+        "name": "PAD Courses",
+        "description": "",
+        "title": "Прикладной Анализ Данных",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": false,
+        "valueDefault": null,
+        "searchName": "padCourses",
+        "variants": [
+          "1 курс",
+          "2 курс",
+          "3 курс",
+          "4 курс"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "status",
+      "title": "Статус",
+      "attribute": {
+        "id": "30000033-0000-0000-0000-03b7f3a00011",
+        "usage": "checkbox",
+        "name": "Project Status",
+        "description": "",
+        "title": "Статус",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": false,
+        "valueDefault": null,
+        "searchName": "status",
+        "variants": [],
+        "validators": []
+      }
+    }
+  ]
+}

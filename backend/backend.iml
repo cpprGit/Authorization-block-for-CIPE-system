@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true" LANGUAGE_LEVEL="JDK_1_8">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated-src/jooq/dev" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.2/87d9a22aa9a7dd26e80c360e709f7ee02e32ab3b/poi-ooxml-4.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.2/712cc02d5bbe729d2485a1579f3d8dfc47e25b51/poi-ooxml-4.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/964bf41cf68bce08e4ef6b2279b559fdf8d454f4/poi-4.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/ac5af3832ebaef94562a39591a000338bbae0e4b/poi-4.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/563dcb685903c96ce8abbd03adf7fa49e19aa8b4/gson-2.3.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.41/77652607ed82a49202d8a0b89de16994b61bdd75/kotlin-stdlib-jdk8-1.3.41.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.41/c6003df46cbfbb03dde7a8328a0f360d067895ba/kotlin-stdlib-jdk8-1.3.41-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.41/8fb58b8954661de666e321478bf4178c18ce8018/kotlin-reflect-1.3.41.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.41/4c1b75b8d6a0e0cd10a4463cb725fa55fbda9149/kotlin-reflect-1.3.41-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/7fa353579a38ee5bc873511455e4cca65d930b52/kotlinx-coroutines-core-1.1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-generic/0.10.3/8e2341bde907c263801c22b19ef7ecd38946af47/arrow-generic-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-generic/0.10.3/fc038ef1c9ae6e4270334804c2d1e0a496c267d6/arrow-generic-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-optics-mtl/0.10.3/fa58e03266d7728134ff687a009ab40c1d2613ef/arrow-optics-mtl-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-optics-mtl/0.10.3/10f4f1178a8aa721f33e2f8f45f5a8db04e7c0a7/arrow-optics-mtl-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-optics/0.10.3/a76bbb2aa3f44a20d8ba71153b97e98245c50dd3/arrow-optics-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-optics/0.10.3/269a1ff17de2831a816226a88a7213f1ebc83811/arrow-optics-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-fx-rx2/0.10.3/adaec7698f50c146430884e20d26dcc287f7d893/arrow-fx-rx2-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-fx-rx2/0.10.3/a0b7f88e39aa5ed76d68ba94fafbb6fab66746b/arrow-fx-rx2-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-fx/0.10.3/167c29d4ca13bbc6e9aa8bfc60e91d51593fd0e1/arrow-fx-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-fx/0.10.3/3d48f273db9a088baa9bde6cb9655a1388408975/arrow-fx-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-syntax/0.10.3/dded558c72649a87c4d6459c5890bd4e23c1a705/arrow-syntax-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-syntax/0.10.3/413bdb93db0445bf309c9cf9b7cd7f0a675ff448/arrow-syntax-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-mtl/0.10.3/416a0b12153d34059f008245e95cc29edcf06618/arrow-mtl-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-mtl/0.10.3/cffa7fcfeafd6370dbed0c080387e0c09489604/arrow-mtl-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-mtl-data/0.10.3/51eb845d13d762a22f0ff243b6fff030ae04bef/arrow-mtl-data-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-mtl-data/0.10.3/277a24b9dae75e167f826c24c42190ed79c98c9b/arrow-mtl-data-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-free/0.10.3/d7e6fd9eabcaf8a5060ed6ba7c2cdf68e120f9c3/arrow-free-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-free/0.10.3/67be069c5d35262d86f874e49e68586c2b08b41b/arrow-free-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-free-data/0.10.3/308ea41e7bbeaa9d9fa756135191dc04b32fba6b/arrow-free-data-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-free-data/0.10.3/b5894d840634b377bd8d01982cb03777b2b9e6bf/arrow-free-data-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-aql/0.10.3/8ff58c5ac910361f219f2d992a47faf5d08e7e2d/arrow-aql-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-aql/0.10.3/d61fbe3e4ee4757f9995e1de523ce1c45c3470c/arrow-aql-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-ui/0.10.3/79151063db3983f5593db76ca6e39a991ebcf26c/arrow-ui-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-ui/0.10.3/e6e4f7fc2b300f8b787b8fe20b5bf24b60a1b732/arrow-ui-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-ui-data/0.10.3/a3f17a2836a09d5182244bbb68fb1c99828c24e2/arrow-ui-data-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-ui-data/0.10.3/830117d0605fabc14556f4b268200c7b46835f6e/arrow-ui-data-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.10.3/ee0a2730021e4bebb071af4593d1582e52498d63/arrow-core-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core/0.10.3/657d71914557e6d12b323e5a200aa3acbcf1c940/arrow-core-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core-data/0.10.3/8216b8065baa28963b6462f18928830af433cf74/arrow-core-data-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-core-data/0.10.3/495305d33ff2e8afaad86a0f713c1a4e3d1fdb84/arrow-core-data-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.9/f7b520c458572890807d143670c9b24f4de90897/joda-time-2.9.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.9/29a9fcf32288cd678b37b372974786f731b982d1/joda-time-2.9.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.4.7/36bafd876978d225a0d2248ee5e97421f3277fd2/javax.mail-1.4.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.4.7/e09aa2196aeb873911c2deec74f69a11affefd28/javax.mail-1.4.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-servlet/2.0.17.Final/f12c5d68e855c4bf25c29c90e6896f5eb27c5e75/undertow-servlet-2.0.17.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-servlet/2.0.17.Final/69bae65ddc55e004c87e82826a011fc91ec52e/undertow-servlet-2.0.17.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-core/2.0.17.Final/7932271e22288c1013726e31135de75afd194007/undertow-core-2.0.17.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.undertow/undertow-core/2.0.17.Final/24f3c73b2946ef8b83d830bc1fa5e755cc39078d/undertow-core-2.0.17.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.jsoniter/jsoniter/0.9.23/4cff9a02d6d9a848d1b7298aac36c47fd9e67d77/jsoniter-0.9.23.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.jsoniter/jsoniter/0.9.23/5b426d9bd20e62209b14611bc2e15074c43e4830/jsoniter-0.9.23-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.5/951b7eda125f3137538a94e2cbdcf744088ad4c2/postgresql-42.2.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.5/38646ec680de3cdaad06738686a3bc454022345/postgresql-42.2.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.3.1/bb447db60818ecfdbb1b99e7bd096ba7a252d91a/HikariCP-3.3.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.3.1/a07e625a4d4be931217488f8f7bb8a25f0b6d7e0/HikariCP-3.3.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.12.3/f3f8569bb50d0992596259c0f8a4e40c21885fb2/jooq-3.12.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jooq/jooq/3.12.3/bad5543b0dc9ba1bce95453df9d2778cf644266a/jooq-3.12.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.cache2k/cache2k-core/1.2.1.Final/1b2c5304b1467c592c0242003a6d7d0e6751b874/cache2k-core-1.2.1.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.cache2k/cache2k-core/1.2.1.Final/6bdb7bc6044907daa6ce0adb505b4a9212147708/cache2k-core-1.2.1.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.0.1/282c164057d55e6b6af2de49e8930f3c760439da/picocli-4.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.0.1/232fde54f69374a727124884cf8b0b5347d2e8a6/picocli-4.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.koin/koin-core-ext/1.0.2/a52e96a0561d80a630031ef7610c0301daba8ae5/koin-core-ext-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.koin/koin-core-ext/1.0.2/1d1f6009cef551348ada3af2ae5aa2a593f7ab57/koin-core-ext-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.koin/koin-core/1.0.2/dff622d5690377492970afd65e952c771a9a3448/koin-core-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.koin/koin-core/1.0.2/86c2f8f77dc74a22979a2965e99308b0315135e3/koin-core-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.3.1/631751fe30a9fd38634cabb28c15deec7ca4aad/okhttp-4.3.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.3.1/99722dff14c022974055d1390bddb977cb4012be/okhttp-4.3.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.auth0/java-jwt/3.9.0/93afe82f15d7b3ca4d895ed8d87a94756bec92c/java-jwt-3.9.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.auth0/java-jwt/3.9.0/126d9e61364df884b4a2d06d8d8be9652f1c6bd2/java-jwt-3.9.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.13/3f18e1aa31031d89db6f01ba05d501258ce69d2c/commons-codec-1.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.13/226247b40160f2892fa4c7851b5b913d5d10912d/commons-codec-1.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/8fab23986ea8886af34818daf32a718e81dc98ba/commons-math3-3.6.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/8467c813d442837fcaeddbc42cf5c5359fab4933/SparseBitSet-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/ee5e8ac60eb99a373a4d3e0a35d1feccfabddc33/SparseBitSet-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/4.1.2/550cc22a598c0b0a51d1f55f8371e83c1229802d/poi-ooxml-schemas-4.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/7e65777fb451ddab6a9c054beb879e521b7eab78/commons-compress-1.19.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/9c242093f81288289bc433e383c8a8de89489406/commons-compress-1.19-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.06/159dd2e8956459a4eb0a9a6ecda9004d8d289708/curvesapi-1.06.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.06/48404d3d9cfeb13c15d9bff1e11cccc7e4cb8f48/curvesapi-1.06-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/854725f0e8cdf688647bdc9022d1b32228fefc14/kotlin-stdlib-jdk7-1.3.50-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-annotations/0.10.3/759ad0297856e57f9b6de7d63e524c0c0b677a2/arrow-annotations-0.10.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.arrow-kt/arrow-annotations/0.10.3/eccd6ee71ea998d35494c1913e9ea76365e9cd/arrow-annotations-0.10.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/2.4.1/569165a2a9c1f7af07dffc80ed983013a2209896/okio-jvm-2.4.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/2.4.1/20e35db1fd78582ae4dba8cf27c5dbd01810a926/okio-2.4.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/4702105e97f7396ae41b113fdbdc180ec1eb1e36/kotlin-stdlib-1.3.61.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/72876c4e34feff9bf8d93d0b100e71ce6f5f8244/kotlin-stdlib-1.3.61-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.1.1/7ed04382bdf0c89c5d87ac462aa4935ae8e85243/kotlinx-coroutines-core-common-1.1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.1.1/113450f5f2a971252086c89dd26cde062455fbe8/kotlinx-coroutines-core-common-1.1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.13/6bce5b4ad26177abd09df930988d22537b8ad0f7/rxjava-2.2.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.13/2d42976fbf02bbfec0b90801e5b356b06b42915a/rxjava-2.2.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/a44f0f22bbd9ccb96952806e73f6cc16ef7d2f67/jboss-logging-3.3.2.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.3.8.Final/7942ba8330c91a12006c912e040d25a77a58c525/xnio-api-3.3.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-api/3.3.8.Final/d047cc089ff5e026aecc253af03f9fe2eaeacf29/xnio-api-3.3.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.servlet/jboss-servlet-api_4.0_spec/1.0.0.Final/322892a664ab868bd3ec8561028111f1f928a3f0/jboss-servlet-api_4.0_spec-1.0.0.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.servlet/jboss-servlet-api_4.0_spec/1.0.0.Final/ad4aba87611c9cc4214df926a24654816752cfe3/jboss-servlet-api_4.0_spec-1.0.0.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/d6b20c0e95c5b38f313cc2ab1a55560cedabe1f/jboss-annotations-api_1.2_spec-1.0.2.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/3ab8d9a91dba3fc764e77442451e944a764bb04f/jboss-annotations-api_1.2_spec-1.0.2.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/e6ffdff8c438d959376c91d94b319457354a84c5/reactive-streams-1.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.0/99f802e0cb3e953ba3d6e698795c4aeb98d37c48/jaxb-api-2.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.0/431dc11c8e5d8b9f5149be5757ef8e170fc6824a/jaxb-api-2.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.cache2k/cache2k-api/1.2.1.Final/9d11fefc7a357c91830bec9894fbc38af06edbe7/cache2k-api-1.2.1.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.cache2k/cache2k-api/1.2.1.Final/477b3ecf3793953204705a2e106b6a46887c5a14/cache2k-api-1.2.1.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.1.0/6dac1f897dfb3e3f17fc79b18a3353b2e51c464e/xmlbeans-3.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.1.0/d4973a8bf57cb9aaeb24679137789bbf873a7b5f/xmlbeans-3.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/fe3b9d48f4c3947639b6b1760213c1b79281383e/kotlin-stdlib-common-1.3.61-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kindedj/kindedj/1.1.0/462731347602a3f24e3f21feec50928f9a657741/kindedj-1.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kindedj/kindedj/1.1.0/3d0b22938dc6ddc667f628533a8d625935817bc0/kindedj-1.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/8dafaf230666e526c53e544ab6a9d6ecfcbab4ee/xnio-nio-3.3.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/7aa463e055d6d2f7b1a7915bf17510c9a98cbf77/xnio-nio-3.3.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0.pr3/4e17238b159dcd1167b095024fe07f41da1e37ac/jackson-databind-2.10.0.pr3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0.pr3/5d1c60d9301a8c88085d4cab7d1b6e1cfe375b58/jackson-databind-2.10.0.pr3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.10.0.pr3/6c99a6d972b8bdd92192bef4b0ff5df164e9cafc/jackson-annotations-2.10.0.pr3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.10.0.pr3/48cc980c6d94d47efffe53d9adee8a75d8d3dca1/jackson-annotations-2.10.0.pr3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.0.pr3/1d2f9b816bcd00130ddc9dae6c99f7b533afcc73/jackson-core-2.10.0.pr3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.0.pr3/187757ef6458f7438d45520ef809bf9c9efb1bc7/jackson-core-2.10.0.pr3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-junit5/3.2.1/375266230b03b64a13f29d683dd1e752fccd5bfc/kotlintest-runner-junit5-3.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-junit5/3.2.1/66d276cf59e9a1a37d01a67d74e1b904892b053e/kotlintest-runner-junit5-3.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.2.1/aeda158894992d227169f0a09563e830dd546ddf/kotlintest-runner-jvm-3.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-runner-jvm/3.2.1/77499a08ada24f7d64779330462766e91ef1259a/kotlintest-runner-jvm-3.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-core/3.2.1/274ff3725d735ec0610d94d0b1421b14901d9d31/kotlintest-core-3.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-core/3.2.1/abb4bf20c1b284f068bc0822f96f665c28571d2e/kotlintest-core-3.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-assertions/3.2.1/3d6f6d0860c6c0533c5a9a47204a9bea7a0351a/kotlintest-assertions-3.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.kotlintest/kotlintest-assertions/3.2.1/57920fb6f20ca64e0f877b07be9a8e30b1b3988d/kotlintest-assertions-3.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-nop/1.7.28/e427e2f69d0a8508994e0a754a44d5212fa38b56/slf4j-nop-1.7.28.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-nop/1.7.28/282d7246d1a70718733e2fb322b106c6264879a7/slf4j-nop-1.7.28-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.21.0/cdd1d0d5b2edbd2a7040735ccf88318c031f458b/mockito-core-2.21.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.21.0/6ce1c9a7dc4e816d309abb74f0c032bd3c9b59f6/mockito-core-2.21.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/f597408bde45371548f9e9791da7981a1134328d/junit-jupiter-engine-5.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.5.2/44d1543a802a072d87cc146d9d96223d61683617/junit-jupiter-engine-5.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.28/2cd9b264f76e3d087ee21bfc99305928e1bdb443/slf4j-api-1.7.28.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.28/6444f3c8fce32e20f621e264807256c5e65f11c9/slf4j-api-1.7.28-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.15/cb36fe3c70ead5fcd016856a7efff908402d86b8/byte-buddy-1.8.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.8.15/a8f95953d78effdd8eca80e92c5b62f648b4a1f5/byte-buddy-1.8.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.8.15/a2dbe3457401f65ad4022617fbb3fc0e5f427c7d/byte-buddy-agent-1.8.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.8.15/7bd145597e02bf07eea8cff4a3d8e0bdbe66d21f/byte-buddy-agent-1.8.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/96614f514a1031296657bf0dde452dc15e42fcb8/objenesis-2.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.3.2/4c503033e9085087cf70d241142068f1e6bd8195/junit-platform-launcher-1.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.3.2/a2b61ebcbaf677cba765e3b00a46543edceed9dd/junit-platform-launcher-1.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.5.2/d5697f6ebe0b4d08c0210b5b98b4e1a40f40dfc6/junit-platform-engine-1.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.5.2/6fc5769022fca2530aa2372824a2784a1e741d3f/junit-platform-engine-1.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.5.2/6393db7e4c0265152d8fc4ff146633d1a7d36c47/junit-jupiter-api-5.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.5.2/22b57242e953bf2de96fd5a122bd697f18b2fcd2/junit-jupiter-api-5.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-suite-api/1.3.2/2ace876e8a81e9fae97b3d057972326112bf10eb/junit-platform-suite-api-1.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-suite-api/1.3.2/c050070ef9ad1a84661944d9b462443ffe95fae1/junit-platform-suite-api-1.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.5.2/9703df63b65d415b2a027d43ce908c625b3aedce/junit-platform-commons-1.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.5.2/32912ebbdeda6dcc83fe50d0ca112a930a777b5f/junit-platform-commons-1.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/f3c15fe970af864390c8d0634c9f16aca1b064a8/apiguardian-api-1.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.univocity/univocity-parsers/2.7.6/30848b34b5af2256475c6985cf6030dd7ace4d78/univocity-parsers-2.7.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.univocity/univocity-parsers/2.7.6/b53399c39c36505104c204addb4869d73ad0f8ad/univocity-parsers-2.7.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.github.wumpz/diffutils/2.2/647f913ef6c350d3b1bc1ffa48a74747a13e89f/diffutils-2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.github.wumpz/diffutils/2.2/1533f8ad61349ed86479f4c092cb24c4a23d8a87/diffutils-2.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.github.classgraph/classgraph/4.6.18/c9e805b7b2d84a087f53814352e46d934ddb524b/classgraph-4.6.18.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/io.github.classgraph/classgraph/4.6.18/28238a341006586e05dded0771ebf19aeaa2634d/classgraph-4.6.18-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.4.1.201607150455-r/63998ced66e425d9e8bcd0c59f710c98f0c021ff/org.eclipse.jgit-4.4.1.201607150455-r.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.4.1.201607150455-r/34a4358ede1c8dde5f4a5f10a3c9e6f304f6facc/org.eclipse.jgit-4.4.1.201607150455-r-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/8dafaf230666e526c53e544ab6a9d6ecfcbab4ee/xnio-nio-3.3.8.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/org.jboss.xnio/xnio-nio/3.3.8.Final/7aa463e055d6d2f7b1a7915bf17510c9a98cbf77/xnio-nio-3.3.8.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0.pr3/4e17238b159dcd1167b095024fe07f41da1e37ac/jackson-databind-2.10.0.pr3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.10.0.pr3/5d1c60d9301a8c88085d4cab7d1b6e1cfe375b58/jackson-databind-2.10.0.pr3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.10.0.pr3/6c99a6d972b8bdd92192bef4b0ff5df164e9cafc/jackson-annotations-2.10.0.pr3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.10.0.pr3/48cc980c6d94d47efffe53d9adee8a75d8d3dca1/jackson-annotations-2.10.0.pr3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.0.pr3/1d2f9b816bcd00130ddc9dae6c99f7b533afcc73/jackson-core-2.10.0.pr3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arkazantseva/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.10.0.pr3/187757ef6458f7438d45520ef809bf9c9efb1bc7/jackson-core-2.10.0.pr3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>

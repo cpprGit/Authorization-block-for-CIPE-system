@@ -1,0 +1,3 @@
+rootProject.name = 'ccpr'
+include 'backend'
+//include 'frontend'

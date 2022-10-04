@@ -1,0 +1,17 @@
+{
+  "id": "3ed30790-767b-11ea-a47e-a7f6e89e56e6",
+  "usage": "short_text",
+  "name": "Test attribute required fields only",
+  "description": null,
+  "title": "Test attribute title",
+  "placeholder": null,
+  "step": null,
+  "min": null,
+  "max": null,
+  "hint": null,
+  "mandatory": false,
+  "valueDefault": null,
+  "searchName": null,
+  "variants": [],
+  "validators": []
+}

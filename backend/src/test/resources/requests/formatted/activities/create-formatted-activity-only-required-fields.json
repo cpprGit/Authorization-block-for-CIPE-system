@@ -1,0 +1,49 @@
+{
+  "name": "Activity Required Fields Only",
+  "course": 4,
+  "faculty": "Прикладной Анализ Данных",
+  "year": 2020,
+  "content": "some content",
+  "stages": [
+    {
+      "name": "Stage 1",
+      "description": "",
+      "stageNumber": 1,
+      "grade": 10,
+      "startDate": "2014-06-01T03:02:13.552+00:00",
+      "endDate": "2014-06-01T03:02:13.552+00:00",
+      "tasks": [
+        {
+          "name": "Task 1-1",
+          "description": "Choose smth",
+          "isUploadable": false
+        },
+        {
+          "name": "Task 1-2",
+          "description": "Choose smth",
+          "isUploadable": false
+        }
+      ]
+    },
+    {
+      "name": "Stage 2",
+      "description": "",
+      "stageNumber": 1,
+      "grade": 10,
+      "startDate": "2014-06-01T03:02:13.552+00:00",
+      "endDate": "2014-06-01T03:02:13.552+00:00",
+      "tasks": [
+        {
+          "name": "Task 2-1",
+          "description": "Choose smth",
+          "isUploadable": false
+        },
+        {
+          "name": "Task 2",
+          "description": "Choose smth",
+          "isUploadable": false
+        }
+      ]
+    }
+  ]
+}

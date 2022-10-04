@@ -1,0 +1,33 @@
+.project-application-card
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+
+  &__link
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1 1 auto;
+    max-width: 70%;
+    overflow: hidden;
+
+  &__buttons
+    width: 200px;
+
+  &__accepted
+    margin: 16px;
+    color: #0d8050;
+
+    &._cancel-margin
+      margin: 0;
+
+  &__controls
+    flex: 0 0 auto;
+
+  &__rejected,
+  &__waiting
+    margin: 16px;
+    opacity: .5;
+    color: #182026;
+
+    &._cancel-margin
+      margin: 0;

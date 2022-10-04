@@ -1,0 +1,27 @@
+@import "../../../index.styl"
+
+.header
+  height: $header-and-footer-height;
+  -webkit-box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0);
+  box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 0 0 rgba(16, 22, 26, 0);
+
+  &__link
+    font-weight: 600;
+    font-size: 20px;
+
+    :hover
+      color: #0E5A8A;
+
+  &__long-title
+    +for_tablets()
+      display: none;
+    +for_phones()
+      display: none;
+
+  &__short-title
+    display: none;
+    +for_tablets()
+      display: inherit;
+    +for_phones()
+      display: inherit;
+

@@ -1,0 +1,206 @@
+{
+  "id": "9d442578-766e-11ea-a9e1-ffb6b205dbee",
+  "title": "Test Activity Schema",
+  "description": "Description",
+  "schemaType": "activity",
+  "createdBy": "123e4567-e89b-12d3-a000-000000000000",
+  "buttonName": "Button Name",
+  "attributes": [
+    {
+      "id": "aaabf79c-5bb4-11ea-87ee-03b7f37be111",
+      "usage": "short_text",
+      "name": "Favourite cat breed",
+      "description": "description",
+      "title": "Любимая порода котика",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    },
+    {
+      "id": "b00bf79c-5bb4-11ea-87ee-03b7f37be222",
+      "usage": "short_text",
+      "name": "Eye color",
+      "description": "description",
+      "title": "Цвет глаз",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "name",
+      "title": "Наименование активности",
+      "attribute": {
+        "id": "40000044-0000-0000-0000-03b7f3a00001",
+        "usage": "short_text",
+        "name": "Activity Name",
+        "description": "",
+        "title": "Наименование активности",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Введите полное название активности",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "name",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "description",
+      "title": "Описание",
+      "attribute": {
+        "id": "40000044-0000-0000-0000-03b7f3a00002",
+        "usage": "long_text",
+        "name": "Activity Description",
+        "description": "",
+        "title": "Описание",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Введите описание",
+        "mandatory": false,
+        "valueDefault": null,
+        "searchName": "description",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "faculty",
+      "title": "Образовательная программа",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00004",
+        "usage": "radio",
+        "name": "Department",
+        "description": "",
+        "title": "Образовательная программа",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "faculty",
+        "variants": [
+          "Программная Инженерия",
+          "Прикладная Математика и Информатика",
+          "Прикладной Анализ Данных"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "year",
+      "title": "Год проведения",
+      "attribute": {
+        "id": "40000044-0000-0000-0000-03b7f3a00004",
+        "usage": "number",
+        "name": "Activity Year",
+        "description": "",
+        "title": "Год проведения",
+        "placeholder": null,
+        "step": null,
+        "min": 2000,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "year",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "course",
+      "title": "Курс",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00005",
+        "usage": "radio",
+        "name": "Course",
+        "description": "",
+        "title": "Курс",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "course",
+        "variants": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "status",
+      "title": "Статус",
+      "attribute": {
+        "id": "40000044-0000-0000-0000-03b7f3a00006",
+        "usage": "radio",
+        "name": "Activity Status",
+        "description": "",
+        "title": "Статус",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "status",
+        "variants": [
+          "Ожидает начала",
+          "Выполняется",
+          "Завершена"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "stages",
+      "title": "Этапы",
+      "attribute": {
+        "id": "40000044-0000-0000-0000-03b7f3a00007",
+        "usage": "stage",
+        "name": "Activity Stages",
+        "description": "",
+        "title": "Этапы",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "stages",
+        "variants": [],
+        "validators": []
+      }
+    }
+  ]
+}

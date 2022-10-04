@@ -1,0 +1,57 @@
+.stage-view
+  background-color: rgba(19, 124, 189, 0.2);
+  border-radius: 8px
+  padding: 8px;
+  margin: 8px;
+
+  &__header
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+  &__title
+    margin: 0;
+    font-weight: 400;
+
+  &__description
+    margin-top: 8px;
+    opacity: 0.75;
+
+  //font-weight: 300;
+
+  &__collapse
+    height: 0
+    overflow: hidden
+
+    &._is-open
+      height: auto
+
+.task-view
+  position: relative;
+  margin: 16px 0;
+
+  &__title
+    display: inline;
+    font-weight: 400;
+
+  &__upload-icon
+    position: absolute;
+    top: 3px;
+    right: 0;
+
+  &__description
+    margin: 0 8px;
+    opacity: 0.75;
+
+  //font-weight: 300;
+
+  & .bp3-control.bp3-checkbox .bp3-control-indicator
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 100px;
+
+    &::before
+      width: 1.5em;
+      height: 1.5em;
+

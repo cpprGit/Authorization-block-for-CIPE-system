@@ -1,0 +1,15 @@
+{
+  "title": "Test Activity Schema",
+  "description": "Description",
+  "type": "activity",
+  "buttonName": "Button Name",
+  "createdBy": "123e4567-e89b-12d3-a000-000000000000",
+  "attributes": [
+    {
+      "id": "aaabf79c-5bb4-11ea-87ee-03b7f37be111"
+    },
+    {
+      "id": "b00bf79c-5bb4-11ea-87ee-03b7f37be222"
+    }
+  ]
+}

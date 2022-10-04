@@ -1,0 +1,191 @@
+.form-input
+  position: relative;
+
+  &__label-icon
+    margin-right: 8px;
+    cursor: pointer
+
+  &__cog
+    position: absolute;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+
+  &__cross
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+
+  &__plus
+    margin: 16px 0;
+
+
+.addable-input
+  &__plus
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #182026;
+    padding: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+
+    &:active
+      box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
+
+  &__text
+    position: relative
+    margin: 8px 0 8px;
+    width: calc(100% - 20px);
+    font-weight: 300;
+
+  &__cross
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    margin: 8px 0 8px;
+
+.label-info
+  color: #db3737;
+
+.bp3-file-upload-input::after
+  width: auto
+  padding: 0 8px
+
+.bp3-popover-target.bp3-fill
+  width: 100%
+
+.form-input-mentor
+  max-width: 90vw;
+
+.form-input-mentor ul
+  max-height: 200px;
+  overflow: scroll;
+
+.stage-input
+  &__stage
+    display: flex
+
+  &__stage-view
+    flex: 1 1 auto;
+
+  &__cross
+    flex: 0 0 auto;
+    margin-left: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+
+  &__plus
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #182026;
+    padding: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+
+    &:active
+      box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
+
+  &._disabled &__plus
+    box-shadow: none;
+    background: rgba(206, 217, 224, 0.5);
+    cursor: not-allowed;
+    color: rgba(92, 112, 128, 0.6);
+
+.task-input
+  &__task
+    display: flex
+
+  &__task-view
+    flex: 1 1 auto;
+
+  &__cross
+    flex: 0 0 auto;
+    margin-left: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+  &__plus
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #182026;
+    padding: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+
+    &:active
+      box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.1), 0 2px 4px rgba(16, 22, 26, 0.2), 0 8px 24px rgba(16, 22, 26, 0.2);
+
+
+.validator-input
+  display: flex;
+  margin: 8px 0;
+
+  &__text
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    & .bp3-editable-text
+      margin: 4px 0;
+
+  &__cross
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 8px;
+
+.file-input__control
+  cursor: pointer;
+
+.form-mentor-suggest-input__link
+  color: inherit;
+
+  &:hover
+    color: inherit;
+    opacity: 0.7;
+
+.switch-table
+  &__viewer
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(16, 22, 26, 0.15), 0 0 0 rgba(16, 22, 26, 0), 0 0 0 rgba(16, 22, 26, 0);
+    text-align: center;
+    width:100%;
+    overflow-x: auto;
+    margin-top:10px;
+
+  &__wrapper
+    border-collapse: collapse;
+    width: 100%;
+
+  &__row-top
+    color:#111;
+    box-shadow: 0 1px 0 0.1px rgba(16, 22, 26, 0.15), 0 0 0 rgba(16, 22, 26, 0), 0 0 0 rgba(16, 22, 26, 0);
+
+  &__content
+    color:#111;
+
+  tr th:first-child
+    box-shadow: 1px 0 0 0.1px rgba(16, 22, 26, 0.15), 0 0 0 rgba(16, 22, 26, 0), 0 0 0 rgba(16, 22, 26, 0);
+
+  th
+    padding: 5px;
+    min-width 85px;
+    width: 100px;
+
+  td
+    padding:7px;
+
+  input
+    position:static;
+
+  label
+    margin:0 !important;

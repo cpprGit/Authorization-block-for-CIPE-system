@@ -1,0 +1,18 @@
+@import '../../../index.styl'
+
+.footer
+  height: $header-and-footer-height
+
+  &__long-title
+    //+for_tablets()
+    //  display: none;
+    +for_phones()
+      display: none;
+
+  &__short-title
+    display: none;
+    //+for_tablets()
+    //  display: inherit;
+    +for_phones()
+      display: inherit;
+      git

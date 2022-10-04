@@ -1,0 +1,27 @@
+apply from: './gradle-scripts/utils.gradle'
+
+group 'ru.hse'
+version property('backend', 'version')
+
+buildscript {
+    // configure project extensions
+    apply from: './gradle-scripts/versioning.gradle'
+    apply from: './gradle-scripts/versions/lib.gradle'
+    apply from: './gradle-scripts/versions/lib-test.gradle'
+
+    // configure project dependencies
+    apply from: './gradle-scripts/root.gradle'
+
+    allprojects {
+        repositories {
+            jcenter()
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+    subprojects { subProject ->
+        subProject.afterEvaluate {
+            apply from: "${rootDir.absolutePath}/gradle-scripts/module/module.gradle", to: subProject
+        }
+    }
+}

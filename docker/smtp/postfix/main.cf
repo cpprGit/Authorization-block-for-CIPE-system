@@ -1,0 +1,112 @@
+# only change the next two lines if the default username (nobody) does
+# not exist. On many systems installation creates a unique postfix 
+# account and group which should be used instead
+default_privs = nobody
+mail_owner = vmail
+
+# next two lines can be omitted since they will default to 
+# servers name and domain name
+myhostname = mail.ccpr.ru
+mydomain = ccpr.ru
+mydestination = localhost.$mydomain, localhost
+
+# added to unqualified mailbox addresses - used by local mail service
+# can be ommitted if a valid aliases file exists since this does the
+# same thing
+myorigin = $mydomain
+
+# local aliases normal default value - aliases file MUST be edited
+# alias_maps = hash:/usr/local/etc/postfix/aliases
+# same thing again
+# alias_database = hash:/usr/local/etc/postfix/aliases
+
+# next line is the default so could be omitted
+inet_interfaces = all
+
+# defines local network which is permitted by default to relay mail
+# hereafter the key word mynetworks refers to this IP or IPs
+mynetworks = 192.168.2.0/28, 10.5.0.0/16
+
+# controls email sent to postmaster
+# default is shown below - omit if this is OK
+notify_classes = resource,software
+# can also include - bounce, 2bounce, delay, policy, protocol
+
+#
+# VIRTUAL DOMAIN Definitions
+#
+# VIRTUAL ALIAS DOMAINS
+# if no address manipulation required omit this section
+# continue on new line if required but MUST start with a space
+virtual_alias_domains = ccpr.ru
+
+# next line defines the aliasing for each mailbox address
+# virtual_alias_maps = hash:/etc/postfix/virtual_aliases
+
+# VIRTUAL MAILBOX DOMAINS
+# for all domains that have mailboxes on this server/filesystem
+# continue on new line if required but MUST start with a space
+virtual_mailbox_domains = ccpr.ru
+
+# base for delivery to virtual_mailbox_domains
+virtual_mailbox_base = /home
+
+# Optional lookup tables with all valid addresses in the domains that match $virtual_mailbox_domains.
+# Specify zero or more "type:name" lookup tables, separated by whitespace or comma. Tables will be searched in the specified order until a match is found.
+# In a lookup table, specify a left-hand side of "@domain.tld" to match any user in the specified domain that does not have a specific "user@domain.tld" entry.
+# The remainder of this text is specific to the virtual(8) delivery agent. It does not apply when mail is delivered with a different mail delivery program.
+# The virtual(8) delivery agent uses this table to look up the per-recipient mailbox or maildir pathname. If the lookup result ends in a slash ("/"), maildir-style delivery is carried out, otherwise the path is assumed to specify a UNIX-style mailbox file. Note that $virtual_mailbox_base is unconditionally prepended to this path.
+# When a recipient address has an optional address extension (user+foo@domain.tld), the virtual(8) delivery agent looks up the full address first, and when the lookup fails, it looks up the unextended address (user@domain.tld).
+virtual_mailbox_maps = pgsql:/etc/postfix/mailboxes.cf
+
+# Optional lookup tables with mappings from recipient address to (message delivery transport, next-hop destination). See transport(5) for details.
+# Specify zero or more "type:table" lookup tables, separated by whitespace or comma. Tables will be searched in the specified order until a match is found.
+# If you use this feature with local files, run "postmap /etc/postfix/transport" after making a change.
+# Pattern matching of domain names is controlled by the presence or absence of "transport_maps" in the parent_domain_matches_subdomains parameter value.
+# For safety reasons, as of Postfix 2.3 this feature does not allow $number substitutions in regular expression maps.
+transport_maps = pgsql:/etc/postfix/transport.cf
+
+# Lookup tables with the per-recipient user ID that the virtual(8) delivery agent uses while writing to the recipient's mailbox.
+# This parameter is specific to the virtual(8) delivery agent. It does not apply when mail is delivered with a different mail delivery program.
+# Specify zero or more "type:name" lookup tables, separated by whitespace or comma. Tables will be searched in the specified order until a match is found.
+# In a lookup table, specify a left-hand side of "@domain.tld" to match any user in the specified domain that does not have a specific "user@domain.tld" entry.
+# When a recipient address has an optional address extension (user+foo@domain.tld), the virtual(8) delivery agent looks up the full address first, and when the lookup fails, it looks up the unextended address (user@domain.tld).
+virtual_uid_maps = pgsql:/etc/postfix/uids.cf
+
+# Lookup tables with the per-recipient group ID for virtual(8) mailbox delivery.
+# This parameter is specific to the virtual(8) delivery agent. It does not apply when mail is delivered with a different mail delivery program.
+# Specify zero or more "type:name" lookup tables, separated by whitespace or comma. Tables will be searched in the specified order until a match is found.
+# In a lookup table, specify a left-hand side of "@domain.tld" to match any user in the specified domain that does not have a specific "user@domain.tld" entry.
+# When a recipient address has an optional address extension (user+foo@domain.tld), the virtual(8) delivery agent looks up the full address first, and when the lookup fails, it looks up the unextended address (user@domain.tld).
+virtual_gid_maps = pgsql:/etc/postfix/gids.cf
+
+# Optional lookup tables with
+# a) names of domains for which all addresses are aliased to addresses in other local or remote domains, and
+# b) addresses that are aliased to addresses in other local or remote domains. Available before Postfix version 2.0.
+# With Postfix version 2.0 and later, this is replaced by separate controls: virtual_alias_domains and virtual_alias_maps.
+virtual_maps = pgsql:/etc/postfix/virtual.cf
+
+# SASL 2 configuration
+
+# Optional restrictions that the Postfix SMTP server applies in the context of a client RCPT TO command, after smtpd_relay_restrictions.
+# See SMTPD_ACCESS_README, section "Delayed evaluation of SMTP access restriction lists" for a discussion of evaluation context and time.
+smtpd_recipient_restrictions = permit_sasl_authenticated, permit_mynetworks, reject_unauth_destination
+
+# Enable SASL authentication in the Postfix SMTP client. By default, the Postfix SMTP client uses no authentication.
+smtpd_sasl_auth_enable = yes
+
+# Postfix SMTP server SASL security options; as of Postfix 2.3 the list of available features depends on the SASL server implementation that is selected with smtpd_sasl_type.
+# noplaintext – Disallow methods that use plaintext passwords.
+# noactive – Disallow methods subject to active (non-dictionary) attack.
+# nodictionary – Disallow methods subject to passive (dictionary) attack.
+# noanonymous – Disallow methods that allow anonymous authentication.
+# forward_secrecy – Only allow methods that support forward secrecy (Dovecot only).
+# mutual_auth – Only allow methods that provide mutual authentication (not available with Cyrus SASL version 1).
+smtpd_sasl_security_options = noanonymous
+
+# The name of the Postfix SMTP server's local SASL authentication realm.
+# By default, the local authentication realm name is the null string.
+smtpd_sasl_local_domain = $mydomain
+
+# Enable SASL authentication in the Postfix SMTP client. By default, the Postfix SMTP client uses no authentication.
+smtp_sasl_auth_enable = no

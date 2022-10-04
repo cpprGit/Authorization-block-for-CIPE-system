@@ -1,0 +1,10 @@
+import java.text.SimpleDateFormat
+
+// Utility code
+SimpleDateFormat format = new SimpleDateFormat("dd.mm.yyyy")
+String today            = format.format(new Date())
+
+// Application versioning
+ext.app_version         = '0.0.1'
+ext.app_build           = 1
+ext.app_build_date      = today

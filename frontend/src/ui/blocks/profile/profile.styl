@@ -1,0 +1,32 @@
+@import '../../../index.styl'
+
+.profile
+  &__title
+    display: flex;
+    align-items: center;
+
+  &__title-icon
+    margin: 4px
+
+  &__edit
+    margin 16px;
+
+  &__navbar
+    overflow-y: scroll;
+    margin: 16px;
+
+  &__item
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: baseline;
+    margin: 16px;
+    +for_phones()
+      flex-direction: column;
+    +for_tablets()
+      flex-direction: column;
+
+    &-title
+      flex: 0 0 auto;
+      opacity: 0.5;
+      padding-right: 16px;

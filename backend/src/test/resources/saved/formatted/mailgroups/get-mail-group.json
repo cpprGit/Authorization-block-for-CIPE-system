@@ -1,0 +1,162 @@
+{
+  "id": "801843c4-7f0d-11ea-af2b-97d2509258d3",
+  "name": "Testing Mail Group",
+  "created_by": "123e4567-e89b-12d3-a000-000000000000",
+  "users": [
+    {
+      "id": "00000000-eeee-67aa-87ee-000099340000",
+      "name": "Дмитрий Петрович Воробьев",
+      "type": "student",
+      "course": "4",
+      "faculty": "Программная Инженерия",
+      "group": "БПИ162",
+      "email": "randomemail@edu.hse.ru",
+      "status": "active"
+    },
+    {
+      "id": "00000000-eeee-67aa-87ee-000099340001",
+      "name": "Екатерина Игнатьева Скворцова",
+      "type": "student",
+      "course": "2",
+      "faculty": "Прикладная Математика и Информатика",
+      "group": "БПМИ181",
+      "email": "siamcat@edu.hse.ru",
+      "status": "active"
+    }
+  ],
+  "mail-fields": {
+    "student": [
+      {
+        "name": "email",
+        "title": "Корпоративная электронная почта студента",
+        "attribute": {
+          "id": "00000000-0000-0000-0000-03b7f3a00000",
+          "usage": "email",
+          "name": "Student Email",
+          "description": "",
+          "title": "Корпоративная электронная почта студента",
+          "placeholder": "youremail@edu.hse.ru",
+          "step": null,
+          "min": null,
+          "max": null,
+          "hint": "Почта должна заканчивать на @edu.hse.ru",
+          "mandatory": true,
+          "valueDefault": null,
+          "searchName": "email",
+          "variants": [],
+          "validators": [
+            {
+              "regexp": "^([a-z0-9_-]+\\\\.)*[a-z0-9_-]+@edu.hse.ru$",
+              "message": "Неверный e-mail адрес"
+            }
+          ]
+        }
+      },
+      {
+        "name": "name",
+        "title": "ФИО",
+        "attribute": {
+          "id": "00000000-0000-0000-0000-03b7f3a00002",
+          "usage": "short_text",
+          "name": "Student Full Name",
+          "description": "",
+          "title": "ФИО",
+          "placeholder": "Иванов Иван Иванович",
+          "step": null,
+          "min": null,
+          "max": null,
+          "hint": "Введите полное имя.",
+          "mandatory": true,
+          "valueDefault": null,
+          "searchName": "name",
+          "variants": [],
+          "validators": []
+        }
+      },
+      {
+        "name": "group",
+        "title": "Группа",
+        "attribute": {
+          "id": "00000000-0000-0000-0000-03b7f3a00003",
+          "usage": "student_group",
+          "name": "Student Group",
+          "description": "",
+          "title": "Группа",
+          "placeholder": null,
+          "step": null,
+          "min": null,
+          "max": null,
+          "hint": null,
+          "mandatory": true,
+          "valueDefault": null,
+          "searchName": "group",
+          "variants": [
+            "БПИ162",
+            "БПИ161",
+            "БПИ171",
+            "БПИ181",
+            "БПИ191",
+            "БПМИ161",
+            "БПМИ171",
+            "БПМИ181",
+            "БПМИ191",
+            "ПАД181",
+            "ПАД191"
+          ],
+          "validators": []
+        }
+      },
+      {
+        "name": "faculty",
+        "title": "Образовательная программа",
+        "attribute": {
+          "id": "00000000-0000-0000-0000-03b7f3a00004",
+          "usage": "radio",
+          "name": "Department",
+          "description": "",
+          "title": "Образовательная программа",
+          "placeholder": null,
+          "step": null,
+          "min": null,
+          "max": null,
+          "hint": null,
+          "mandatory": true,
+          "valueDefault": null,
+          "searchName": "faculty",
+          "variants": [
+            "Программная Инженерия",
+            "Прикладная Математика и Информатика",
+            "Прикладной Анализ Данных"
+          ],
+          "validators": []
+        }
+      },
+      {
+        "name": "course",
+        "title": "Курс",
+        "attribute": {
+          "id": "00000000-0000-0000-0000-03b7f3a00005",
+          "usage": "radio",
+          "name": "Course",
+          "description": "",
+          "title": "Курс",
+          "placeholder": null,
+          "step": null,
+          "min": null,
+          "max": null,
+          "hint": null,
+          "mandatory": true,
+          "valueDefault": null,
+          "searchName": "course",
+          "variants": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "validators": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+// root project level configuration
+
+project.buildscript {
+    repositories {
+        // jcenter repository
+        jcenter()
+    }
+
+    dependencies {
+        // kotlin gradle tools plugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "nu.studer:gradle-jooq-plugin:$jooq_plugin_version"
+    }
+}

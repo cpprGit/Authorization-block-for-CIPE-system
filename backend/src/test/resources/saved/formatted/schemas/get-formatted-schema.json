@@ -1,0 +1,44 @@
+{
+  "id": "84648178-765b-11ea-8d55-936688dcb082",
+  "title": "Test Schema",
+  "description": "Description",
+  "schemaType": "activity",
+  "createdBy": "123e4567-e89b-12d3-a000-000000000000",
+  "buttonName": "Button Name",
+  "attributes": [
+    {
+      "id": "aaabf79c-5bb4-11ea-87ee-03b7f37be111",
+      "usage": "short_text",
+      "name": "Favourite cat breed",
+      "description": "description",
+      "title": "Любимая порода котика",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    },
+    {
+      "id": "b00bf79c-5bb4-11ea-87ee-03b7f37be222",
+      "usage": "short_text",
+      "name": "Eye color",
+      "description": "description",
+      "title": "Цвет глаз",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    }
+  ]
+}

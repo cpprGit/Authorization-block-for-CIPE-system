@@ -1,0 +1,211 @@
+{
+  "id": "4c599aec-7670-11ea-a9e1-9ba44b5fdf9c",
+  "title": "Test Student Registration Schema",
+  "description": "Description",
+  "schemaType": "student_registration",
+  "createdBy": "123e4567-e89b-12d3-a000-000000000000",
+  "buttonName": "Button Name",
+  "attributes": [
+    {
+      "id": "aaabf79c-5bb4-11ea-87ee-03b7f37be111",
+      "usage": "short_text",
+      "name": "Favourite cat breed",
+      "description": "description",
+      "title": "Любимая порода котика",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    },
+    {
+      "id": "b00bf79c-5bb4-11ea-87ee-03b7f37be222",
+      "usage": "short_text",
+      "name": "Eye color",
+      "description": "description",
+      "title": "Цвет глаз",
+      "placeholder": "placeholder",
+      "step": 5,
+      "min": 0,
+      "max": 5,
+      "hint": "hint",
+      "mandatory": false,
+      "valueDefault": "value_default",
+      "searchName": null,
+      "variants": [],
+      "validators": []
+    }
+  ],
+  "fields": [
+    {
+      "name": "email",
+      "title": "Корпоративная электронная почта студента",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00000",
+        "usage": "email",
+        "name": "Student Email",
+        "description": "",
+        "title": "Корпоративная электронная почта студента",
+        "placeholder": "youremail@edu.hse.ru",
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Почта должна заканчивать на @edu.hse.ru",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "email",
+        "variants": [],
+        "validators": [
+          {
+            "regexp": "^([a-z0-9_-]+\\\\.)*[a-z0-9_-]+@edu.hse.ru$",
+            "message": "Неверный e-mail адрес"
+          }
+        ]
+      }
+    },
+    {
+      "name": "password",
+      "title": "Пароль",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00001",
+        "usage": "password",
+        "name": "Password",
+        "description": "",
+        "title": "Пароль",
+        "placeholder": "Qwerty1234!",
+        "step": null,
+        "min": 8,
+        "max": 30,
+        "hint": "Пароль должен содержать заглавные буквы, строчные буквы и цифры. Длина пароля от 8 до 30 символов.",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "password",
+        "variants": [],
+        "validators": [
+          {
+            "regexp": ".*[A-ZА-Я].*",
+            "message": "Необходимо ввести по-крайней мере одну заглавную букву"
+          },
+          {
+            "regexp": ".*[a-zа-я].*",
+            "message": "Необходимо ввести по-крайней мере одну строчную букву"
+          },
+          {
+            "regexp": ".*[0-9].*",
+            "message": "Необходимо ввести по-крайней мере одну цифру"
+          }
+        ]
+      }
+    },
+    {
+      "name": "name",
+      "title": "ФИО",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00002",
+        "usage": "short_text",
+        "name": "Student Full Name",
+        "description": "",
+        "title": "ФИО",
+        "placeholder": "Иванов Иван Иванович",
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": "Введите полное имя.",
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "name",
+        "variants": [],
+        "validators": []
+      }
+    },
+    {
+      "name": "group",
+      "title": "Группа",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00003",
+        "usage": "student_group",
+        "name": "Student Group",
+        "description": "",
+        "title": "Группа",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "group",
+        "variants": [
+          "БПИ162",
+          "БПИ161",
+          "БПИ171",
+          "БПИ181",
+          "БПИ191",
+          "БПМИ161",
+          "БПМИ171",
+          "БПМИ181",
+          "БПМИ191",
+          "ПАД181",
+          "ПАД191"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "faculty",
+      "title": "Образовательная программа",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00004",
+        "usage": "radio",
+        "name": "Department",
+        "description": "",
+        "title": "Образовательная программа",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "faculty",
+        "variants": [
+          "Программная Инженерия",
+          "Прикладная Математика и Информатика",
+          "Прикладной Анализ Данных"
+        ],
+        "validators": []
+      }
+    },
+    {
+      "name": "course",
+      "title": "Курс",
+      "attribute": {
+        "id": "00000000-0000-0000-0000-03b7f3a00005",
+        "usage": "radio",
+        "name": "Course",
+        "description": "",
+        "title": "Курс",
+        "placeholder": null,
+        "step": null,
+        "min": null,
+        "max": null,
+        "hint": null,
+        "mandatory": true,
+        "valueDefault": null,
+        "searchName": "course",
+        "variants": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "validators": []
+      }
+    }
+  ]
+}

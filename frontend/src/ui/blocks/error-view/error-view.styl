@@ -1,0 +1,50 @@
+.error-view
+  padding: 16px 0
+  width: 100%
+  height: auto
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+
+  &._is-link
+    cursor: pointer
+
+  &._is-link &__subtitle:hover
+    text-decoration: underline;
+
+  &__icon
+    margin: 8px;
+    flex: 0 0 auto;
+
+  &._size-s &__icon
+    margin: 4px;
+
+  &__block
+    display: flex;
+    align-items: center;
+    position: relative;
+    pointer-events: auto;
+
+  &__message
+    color: #182026
+    font-size: 14px
+    line-height: 18px
+    text-align: center
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.15)
+
+  &._size-s &__message
+    font-size: 12px
+    line-height: 14px
+
+  &__title
+    font-size: 18px
+    line-height: 20px
+
+  &._size-s &__title
+    font-size: 14px
+    line-height: 18px
+
+  &__subtitle
+    opacity: 0.6
+    margin-top: 4px;

@@ -1,0 +1,25 @@
+package ru.hse.cppr.representation.enums.fields
+
+enum class CommonFields(val value: String) {
+    ID("id"),
+    FIELDS("fields"),
+    NAME("name"),
+    SCHEMA("schema"),
+    SCHEMA_ID("schemaId"),
+    SCHEMA_CONTENT("schemaContent"),
+    SCHEMA_CONTENT_ID("schemaContentId"),
+    SCHEMA_TYPE("schemaType"),
+    RECORDS("records"),
+    USAGE("usage"),
+    ATTRIBUTE("attribute"),
+    ATTRIBUTES("attributes"),
+    PASSWORD("password"),
+    TYPE("type"),
+    TITLE("title"),
+    MODIFY_ALLOWED("modifyAllowed"),
+    POSTS("posts"),
+    CREATED_BY("createdBy"),
+    BLOCKED("blocked"),
+    PROFILE_TYPE("profileType"),
+    SEARCH_NAME("searchName"),
+}

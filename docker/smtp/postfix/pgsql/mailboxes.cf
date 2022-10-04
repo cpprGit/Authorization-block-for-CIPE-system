@@ -1,0 +1,7 @@
+hosts=database
+user=smtp
+password=QwEr1234!
+dbname=ccpr_smtp
+table=postfix_mailboxes
+select_field=mailbox
+where_field=userid

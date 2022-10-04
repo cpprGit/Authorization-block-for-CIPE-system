@@ -1,0 +1,11 @@
+database = ccpr_smtp
+host = database
+user = smtp
+password = QwEr1234!
+table = users
+user_column = userid
+pwd_column = password
+#expired_column = acc_expired
+#newtok_column = acc_new_pwreq
+pw_type = crypt
+#debug

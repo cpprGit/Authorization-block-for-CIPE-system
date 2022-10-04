@@ -1,0 +1,10 @@
+// Jupiter versions
+ext.kotlintest_version    = '3.2.1'
+// JUnit4 versions
+ext.junit4_version         = '4.12'
+// Mockito versions
+ext.mockito_version        = '2.21.0'
+// SLF4J versions
+ext.slf4j_version          = '1.7.28'
+// JUnit5 versions
+ext.jupiter_version        = '5.5.2'
